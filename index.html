@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/> 
+	<title>Customer Lifetime Value Calculator</title> 
+	<link rel="stylesheet" type="text/css" href="css/style.css"/> 
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/script.js"></script> 
+</head> 
+
+<body> 
+<div id="wrapper"> 
+  <div id="header">
+      <h1>Customer Lifetime Value</h1>  
+  </div>
+ 
+  <div id="top">  
+    
+    <div id="blurb">
+      <p>
+        The customer lifetime value (LTV) is the total profit a customer will contribute over their lifetime. Net LTV includes the user acquisition cost.  A negative Net LTV suggests the business model is not sustainable.
+      </p>
+    </div>
+    
+    
+    <div id="calc"> 
+
+    	<div id="form"> 
+        <p style="margin-bottom:0px;">Per Purchase:</p>
+
+        <div class="field"> 
+          <label for="revenue">Revenue</label> 
+          <input type="text" name="revenue" id="revenue" placeholder="$30" /> 
+        </div> 
+   
+        <div class="field"> 
+          <label for="expenses">Cost</label> 
+          <input type="text" name="cost" id="cost" placeholder="$20" /> 
+        </div> 
+
+        <div class="field"> 
+          <label for="purchases">Lifetime Purchases</label> 
+          <input type="text" name="purchases" id="purchases" placeholder="5" /> 
+        </div> 
+
+        <div class="display_sum">
+          <div class="sum"><p>Gross LTV: </p></div>
+          <div class="fr"><p id="gltv"></p></div>
+          
+          <div class="clear"></div> 
+        </div>
+
+        <div class="field"> 
+          <label for="aquisition">Aquisition Cost</label> 
+          <input type="text" name="aquisition" id="aquisition" placeholder="$3" /> 
+        </div>
+
+        <div class="display_sum">
+          <div class="sum"><p>Net LTV: </p></div>
+          <div class="fr"><p id="nltv"></p></div>
+          <div class="clear"></div> 
+        </div>
+
+
+        <div id="result_box">
+          <p id="result"></p>
+        </div>
+
+      </div> 
+    </div> 
+    
+    <div class="clear"></div> 
+  </div>
+  
+  <div id="bar">
+    <hr>
+  </div> 
+
+  <div id="bottom">
+    <p>There are several ways to calculate LTV; this calculator keeps things simple.  If there's interest, I'll build a more complex calculator which includes virality and net present value.  To learn more about Customer Lifetime Value, check out these articles by <a href="http://www.avc.com/a_vc/2011/04/ltv-cpa.html">Fred Wilson</a> and <a href="http://www.kaushik.net/avinash/analytics-tip-calculate-ltv-customer-lifetime-value/">Avinash Kaushik</a>.
+    <br /><br />
+    Thanks go to Startup Foundry's <a href="http://thestartupfoundry.com/deathclock/">Startup Death Clock</a> for design inspiration and to <a href="https://gsbapps.stanford.edu/facultyprofiles/biomain.asp?id=15142009">Professor Haim Mendelson</a>, who first introduced me to the topic.
+  </div>
+
+  <div id="footer">
+  <br />
+  <p style="text-align:center;"><a href="http://randylubin.com">Randy Lubin</a>   
+  
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
+
+  <div style="visibility: hidden;"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Customer Lifetime Value Calculator</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://randylubin.com/" property="cc:attributionName" rel="cc:attributionURL">Randy Lubin</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://randylubin.com/customer_ltv" rel="dct:source">randylubin.com</a>.</div>
+  <div class="clear"></div>
+
+  </div>
+
+
+
+</div> 
+</body> 
+</html>

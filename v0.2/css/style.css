@@ -1,0 +1,196 @@
+body{
+	max-height:636px;
+	background: #7db9e8; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZTU3OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #7db9e8 0%, #2989d8 50%, #1e5799 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(50%,#2989d8), color-stop(100%,#1e5799)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#2989d8 50%,#1e5799 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7db9e8 0%,#2989d8 50%,#1e5799 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7db9e8 0%,#2989d8 50%,#1e5799 100%); /* IE10+ */
+background: linear-gradient(top,  #7db9e8 0%,#2989d8 50%,#1e5799 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-8 */
+
+}
+
+#wrapper{
+	background-color: grey;
+	background-image:url(../images/grey.gif);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width:600px;
+	margin-top:-25px;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 1);
+box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 1);
+}
+
+#header{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#h1 {
+	font-family: helvetica, sans-serif;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	width:330px;
+	
+}
+
+#top{
+	padding-top:20px;
+}
+
+p {
+	font-family: helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#calc p{
+	font-weight:bold;
+}
+
+#calc{
+	width: 440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.field{
+	height:40px;
+	margin-bottom:10px;
+}
+
+label {
+	font-family: helvetica, sans-serif;
+	margin-top:7px;
+	display: block;
+	width:310px;
+	font-size:20px;
+	float: left;
+	color:#FFFFFF;
+
+}
+
+form {    
+    
+}
+
+input {    
+  text-align: right;
+  width:70px;
+  float:right;  
+  
+  font-weight: bold;
+  font-size: 15px;
+  height: 35px;
+  padding: 0 15px;
+  margin: 0 0 0 0;
+  display: block;
+
+background-color: #E9E9E9;
+border: 1px solid #C6C6C6;
+
+
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+
+}  
+textarea {    
+  text-align: right;  
+}    
+
+#result_box{
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+}
+
+
+#result{
+	text-align: center;
+	color:#000000;
+}
+
+.fr{
+	float:right;
+	margin-left:auto;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.display_sum{
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+p.display_sum{
+	
+}
+
+.sum{
+	float:left;
+}
+
+#bar{
+	width:50%;
+	padding-left:25px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
+
+.hr {
+	border: 0;
+	height: 5px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#bottom {
+	margin-left:25px;
+	margin-right:25px;
+	padding-bottom:20px;
+	text-align:justify;
+	
+}
+
+#btext{
+	padding-top:1px;
+}
+
+#footer {
+	width:100px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+
+a:link {text-decoration: none; color: #FFF8DC;}
+a:visited {text-decoration: none; color: #FFF8DC;}
+a:active {text-decoration: none; color: #FFFFFF;}
+a:hover {text-decoration: underline; color: #FFFFFF;}
+
+.hidden{
+	visibility: hidden;
+	width:0px;
+	height:0px;
+	font-size:0px;
+}
